@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dago Scolaro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  
+    
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  
+   
+    
+</head>
+<body>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.slider').slick({
+                    dots: true, 
+                    arrows: true, 
+                    autoplay: true, 
+                    autoplaySpeed: 2000
+                });
+            });
+        </script>
+ 
+    
+    <header>
+        <div class="cajas">
+            <h1>Tienda de Ropa Deportiva Scolaro</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="acerca.html">Acerca de</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="cajas">
+            <h2>Los mejores productos los encontras aca!</h2>
+            <a href="productos.html" class="btn">Explorar productos</a>
+        </div>
+    </section>
+
+    <section class="">
+        <div class="cajas">
+            <h2>Productos Destacados</h2>
+            <div class="slider">
+                <div><img src="imagenes/imagen1.jpg" alt="Producto 1"></div>
+                <div><img src="imagenes/imagen2.jpg" alt="Producto 2"></div>
+                <div><img src="imagenes/imagen3.jpg" alt="Producto 3"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="cajas">
+            <p>&copy; Dago Scolaro 2024 Jose Hernandez</p>
+        </div>
+    </footer>
+</body>
+</html>
